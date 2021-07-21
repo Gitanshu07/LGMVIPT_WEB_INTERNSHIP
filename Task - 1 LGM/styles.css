@@ -1,0 +1,377 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* First section CSS */
+
+#first{
+    background-image: url('images/mountains.jpg');
+    background-size: cover;
+    padding: 2% 16%;
+}
+
+.navbar .navbar-brand{
+    font-size:30px;
+    font-weight: bolder;
+}
+
+li{
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    color:#fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: gold;
+}
+
+.heading{
+    color: #fff;
+    margin-top: 8%;
+    width: 75%; 
+}
+
+.heading p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.button{
+    margin-bottom:12%;
+}
+
+.btn-1{
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.btn-2{
+    background-color: purple;
+    color: #fff;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+/* Second Section CSS */
+
+.sec-head{
+    text-align: center;
+    margin: 7%;
+    font-weight: bolder;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.para-2{
+    font-size: 22px;
+    padding-left: 15%;
+    margin-top: 3%;
+    color:  rgb(42, 42, 48);
+}
+.img{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.block-cont{
+    text-align: center;
+}
+
+.block-container{
+    margin-top: 100px;
+    padding: 0 5%;
+}
+
+.block{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.awesome{
+    font-size: 50px;
+    background-color: purple;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.para-head{
+    color: purple;
+    font-weight: bolder;
+}
+
+.para-3{
+    padding: 0 10%;
+}
+
+.card-block:hover{
+    background-color: rgb(247, 244, 93);
+}
+
+.container-third{
+    background-color: rgb(156, 68, 156);
+    margin-top: 80px;
+    text-align: center;
+}
+
+.container-third h1{
+    padding: 2%;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.owl-carousel .item-video{
+    height: 300px;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    display: inline-block;
+}
+
+.owl-dot span{
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 5px 3px;
+}
+
+.owl-dot.active span{
+    background-color: grey;
+}
+
+.zippy-block{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.box{
+
+    /* width: 200px; */
+    /* height: 200px; */
+    /* border-radius: 100%; */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.zippy-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.links{
+    background-color: rgba(172, 127, 199, 0.8);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    padding-top: 85px;
+    padding-left: 15px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.box:hover .links{
+    top: 0; 
+}
+
+[type=radio] {
+    display: none;
+}
+
+.hill-station{
+    margin-top: 5rem;
+    padding-top: 20px;
+    background-color:#eee;
+  }
+  .hill-station .main-sec{
+    max-width: 85rem;
+    width: 70%;
+    margin: 4rem auto;
+    height: 90vh;
+  }
+  
+  .hill-station .main-sec .img-hill{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+    border: 3px solid gray;
+  }
+  .hill-station .main-sec .img-hill input{
+    display: none;
+  }
+  .hill-station .main-sec .img-hill img{
+    height: 100%;
+    width: 100%;
+
+  }
+  .hill-station .main-sec .small-img-hill{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    
+  }
+  .hill-station .main-sec .small-img-hill label{
+    width: 20%;
+    border: 3px solid rgb(156, 144, 144);
+   
+  }
+  .hill-station .main-sec .small-img-hill label img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  #img1:checked ~ .s-img1{
+    margin-left: 0%;
+  }
+  #img2:checked ~ .s-img2{
+    margin-left: -100%;
+  }
+  #img3:checked ~ .s-img3{
+    margin-left: -200%;
+  }
+  #img4:checked ~ .s-img4{
+    margin-left: -300%;
+  }
+  #img5:checked ~ .s-img5{
+    margin-left: -400%;
+  }
+
+.container-fourth{
+    background: url('images/mountains.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.head-2{
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.block-end{
+    padding: 20px 0 40px 0;
+}
+
+.para-blog{
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.para-bottom{
+    font-size: small;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.blog-img{
+    width: 250px;
+    height: 150px;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+.map-img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.contact-block{
+    background-color: rgb(247, 215, 72);
+    padding: 5%;
+}
+
+.input{
+    width:70%;
+    padding: 3px 3px;
+    font-size: small;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.contact-head{
+    font-weight: bolder;
+}
+
+.contact-para{
+    margin-bottom: 0px;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.items{
+    margin: 20px 0;
+}
+
+.last-button{
+    padding: 0 100px;
+    color: #fff;
+    background-color: rgb(65, 19, 107);
+}
+
+footer{
+    margin-top: 70px;
+    height: 150px;
+    text-align: center;
+  }
+
+.footer-block{
+    margin: 20px 0;
+}
+  
+footer p{
+      line-height: 1;
+      font-size: small;
+  }
+  
+.foot{
+    font-size: large;
+    font-weight: bolder;  
+  }
+
+.footicons{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 3;
+  }
+
+.i:hover{
+    color: darkgray;
+  }
+
+footer a{
+    padding: 30px;
+  }
+  
