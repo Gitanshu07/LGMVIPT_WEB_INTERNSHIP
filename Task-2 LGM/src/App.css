@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  background-color: #f2ffec;
+  background-image: linear-gradient(360deg, #f3f4f7 0%, #849bd6 82%); 
+  
+}
+
+.allcards {
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap: 20px;
+  justify-content: space-evenly; 
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 220px;
+}
+
+@media screen and (max-width: 600px) {
+  .allcards {
+    grid-template-columns: repeat(1,auto);
+  }
+}
